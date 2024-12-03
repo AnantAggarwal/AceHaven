@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Room</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <canvas id="sparks"></canvas>
+
+    <header class="header_d" id="header">
+        <img src="logo_wht.png" id="logo_head"> AceHaven <button onclick="toggle_lightmode()" class="toggle_d" id="toggle_button"></button>
+    </header>
+
+    <div class="box">
+        <div class="heading_d" id="heading"><h1>Create Room</h1><br></div>
+        <div class="form_d" id="form">
+            <form>
+            <label for="Room_Name">Game:</label>
+            <input type="text" id="Room_Name" name="Room_Name">
+            <div class="break"></div><br><br>
+            <label for="Money">Initial Money:</label>
+            <input type="number" id="Money" name="Money">
+            <div class="break"></div><br><br>
+            <label for="Entry Fees">Entry Fees:</label>
+            <input type="number" id="Entry Fees" name="Entry Fees">
+            <div class="break"></div><br><br>
+            <label for="Code">Code:</label>
+            <input type="text" id="Code" name="Code">
+            <div class="break"></div><br><br>
+            <button type="submit" id="submit" class="button_d">Submit</button>
+            <button type="reset" id="reset" class="button_d">Reset</button>
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer_d" id="footer">
+        We do not support any form of gambling. Do not use real money and play using the point system provided by us.
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
